@@ -22,9 +22,10 @@ async def main():
     #ad ="https://www.effectiveratecpm.com/ca83bzpx98?key=dee9c6f3171b614287718132222041ad"
     #ad = "https://www.profitableratecpm.com/zhzbtigdvk?key=bfdf77a1bedb6a88e866ad888aa3896b"
     ad ="https://www.profitableratecpm.com/e448i84bx?key=c52b15369f8988b9a0c8a7dbdfbe84f4"
+    ad = "https://www.profitableratecpm.com/mrrsnt73cz?key=a9264f3ab1770607dd37951c2da5963c"
     for api in apis:
         for _ in range(randint (3,5)):
-            url = f"https://api.webscrapingapi.com/v2?api_key=Tt9wljgaJPFEJytneHc4WUzn5LeDuB8M&url=https%3A%2F%2Fwww.profitableratecpm.com%2Fbygzdn8ti5%3Fkey%3Dac2134fc257fcbc83800d460291ac1ab&country=il&render_js=1"
+            url = f"https://api.webscrapingapi.com/v2?api_key=Tt9wljgaJPFEJytneHc4WUzn5LeDuB8M&url={ad}&country=us&render_js=1"
             urls.append(url)
 
     async with aiohttp.ClientSession() as session:
